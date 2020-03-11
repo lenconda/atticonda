@@ -2581,7 +2581,7 @@ textarea {
   }
 }
 
-.post-tags a {
+.post-tags a, a.post-tags {
   display: inline-block;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
