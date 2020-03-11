@@ -1,21 +1,6 @@
-# Attila
+# Atticonda
 
-A content focused responsive theme for [Ghost](https://github.com/tryghost/ghost/). See a demo at: [attila.zutrinken.com](https://attila.zutrinken.com/)
-
-If you like this theme and want to support future development you can become a [financial contributor](https://paypal.me/zutrinken).
-
-## Screenshots
-
-<table>
-<tr>
-<td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-desktop.jpg" />
-</td>
-<td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-mobile.jpg" />
-</td>
-</tr>
-</table>
+A content focused responsive theme for [Ghost](https://github.com/tryghost/ghost/) based on [Attila](https://attila.zutrinken.com/).
 
 ## Features
 

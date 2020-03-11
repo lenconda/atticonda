@@ -1,21 +1,16 @@
 {
-  "name": "attila",
+  "name": "Atticonda",
   "description": "Ghost Theme",
-  "demo": "https://attila.zutrinken.com",
   "version": "2.0.1",
   "engines": {
     "ghost": ">=3.0.0",
     "ghost-api": "v3"
   },
   "license": "MIT",
-  "screenshots": {
-    "desktop": "src/screenshot-desktop.jpg",
-    "mobile": "src/screenshot-mobile.jpg"
-  },
   "author": {
-    "name": "Peter Amende",
-    "email": "xoxo@zutrinken.com",
-    "url": "https://zutrinken.com"
+    "name": "Lenconda",
+    "email": "i@lenconda.top",
+    "url": "https://blog.lenconda.top"
   },
   "gpm": {
     "type": "theme",
