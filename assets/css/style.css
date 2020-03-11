@@ -1407,7 +1407,7 @@ textarea {
 
 .archive .archive-links a:focus,
 .archive .archive-links a:hover {
-  /* color: #d13f21 */
+  /* color: #333 */
   color: #333;
 }
 
@@ -1570,7 +1570,7 @@ textarea {
 
 .search input[type="text"]:focus,
 .search input[type="text"]:hover {
-  border-color: #d13f21
+  border-color: #333
 }
 
 .search input[type="submit"] {
@@ -1633,14 +1633,14 @@ textarea {
 
 .search-close:focus,
 .search-close:hover {
-  border-color: #d13f21
+  border-color: #333
 }
 
 .search-close:focus:after,
 .search-close:focus:before,
 .search-close:hover:after,
 .search-close:hover:before {
-  background: #d13f21
+  background: #333
 }
 
 .nav-header {
@@ -2532,7 +2532,7 @@ textarea {
 
   .post-share a:focus,
   .post-share a:hover {
-    background-color: #d13f21
+    background-color: #333
   }
 }
 
@@ -2602,7 +2602,7 @@ textarea {
 
 .post-tags a:focus,
 .post-tags a:hover {
-  background: #d13f21
+  background: #333
 }
 
 .post-comments {
@@ -2657,8 +2657,8 @@ textarea {
 
 .post-comments-activate:focus,
 .post-comments-activate:hover {
-  color: #d13f21;
-  border-color: #d13f21
+  color: #333;
+  border-color: #333
 }
 
 .activated .post-comments-activate {
@@ -2721,7 +2721,7 @@ textarea {
 
 .post-subscribe .post-subscribe-form .post-subscribe-button:focus,
 .post-subscribe .post-subscribe-form .post-subscribe-button:hover {
-  background: #d13f21
+  background: #333
 }
 
 .post-nav {
@@ -2788,7 +2788,7 @@ textarea {
 .post-nav-next:hover i,
 .post-nav-prev:focus i,
 .post-nav-prev:hover i {
-  color: #d13f21
+  color: #333
 }
 
 .post-nav-next {
@@ -2968,8 +2968,8 @@ textarea {
 
 .pagination a:focus,
 .pagination a:hover {
-  color: #d13f21;
-  border-color: #d13f21
+  color: #333;
+  border-color: #333
 }
 
 .pagination .pagination-prev {
