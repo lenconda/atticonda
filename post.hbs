@@ -68,7 +68,7 @@
 			</section>
 
 
-			<section class="post-comments">
+			<section id="comments" class="post-comments">
 				<a id="show-disqus" class="post-comments-activate">{{t "Show Comments"}}</a>
 			   <div id="disqus_thread"></div>
 			</section>
@@ -163,7 +163,7 @@
 	    }
 	  });
 		// Check if disqus is defined by code injection
-		if (typeof disqus === 'undefined') {
+		/*if (typeof disqus === 'undefined') {
 			// hide comment section
 	    $('.post-comments').css({
 	      'display': 'none'
@@ -178,7 +178,7 @@
 	      });
 	      $(this).parent().addClass('activated');
 	    });
-	  }
+	  } */
   });
 </script>
 {{/contentFor}}

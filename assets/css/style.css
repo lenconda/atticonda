@@ -716,10 +716,10 @@ textarea {
   position: relative;
   margin: 0 1px;
   padding: 4px 8px;
-  font-family: monospace, sans-serif;
+  font-family: 'Fira Code', monospace, sans-serif;
   font-size: 0.75em;
-  background: #f7f8fa;
-  border: 1px solid #e1e3e6;
+  /* background: #f7f8fa;
+  border: 1px solid #e1e3e6; */
   top: -2px;
   white-space: pre-wrap
 }
@@ -741,7 +741,7 @@ textarea {
   font-family: monospace, sans-serif;
   white-space: pre;
   background: #f7f8fa;
-  border: 1px solid #e1e3e6;
+  /* border: 1px solid #e1e3e6; */
   box-sizing: border-box
 }
 
@@ -759,7 +759,7 @@ textarea {
   left: 0;
   top: 0;
   padding: 1.33334em 0;
-  border-right: 1px solid #e1e3e6;
+  /* border-right: 1px solid #e1e3e6; */
   color: #909499;
   font-size: 0.75em;
   line-height: 2em;
