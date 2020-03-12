@@ -14,7 +14,7 @@
 		<div class="inner">
       {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
         {{#foreach tags}}
-          <a href="/tag/{{ name }}" class="post-tags">
+          <a href="{{ url }}" class="post-tags">
             {{ name }} <small>({{ count.posts }})</small>
           </a>
         {{/foreach}}
