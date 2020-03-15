@@ -2544,18 +2544,22 @@ a.post-meta-tag:last-child::after {
   }
 }
 
-.post-share a:focus,
-.post-share a:hover {
-  background-color: #222426
+.post-share a {
+  background-color: #333;
 }
 
-@media (prefers-color-scheme: dark) {
+/* .post-share a:focus,
+.post-share a:hover {
+  background-color: #222426
+} */
+
+/* @media (prefers-color-scheme: dark) {
 
   .post-share a:focus,
   .post-share a:hover {
     background-color: #333
   }
-}
+} */
 
 .post-share a:last-child {
   margin-right: 0
@@ -2570,19 +2574,19 @@ a.post-meta-tag:last-child::after {
   height: auto
 }
 
-.post-share .twitter {
+.post-share .twitter:hover {
   background-color: #3ea9dd
 }
 
-.post-share .facebook {
+.post-share .facebook:hover {
   background-color: #3c5a98
 }
 
-.post-share .linkedin {
+.post-share .linkedin:hover {
   background-color: #0e76a8
 }
 
-.post-share .email {
+.post-share .email:hover {
   background-color: #2997ee
 }
 

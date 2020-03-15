@@ -12,13 +12,6 @@
 		<div class="post-meta">
 			<time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMM YYYY"}}</time> &bull; {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}
 		</div>
-    <span class="post-info">
-			{{#if tags}}
-        {{#each tags}}
-          <a href="{{url}}" class="post-tags">{{name}}</a>
-        {{/each}}
-			{{/if}}
-		</span>
 		{{#if feature_image}}
 		<div class="post-cover cover">
 			<img
@@ -68,12 +61,6 @@
 
 			</section>
 
-
-			<section id="comments" class="post-comments">
-				<a id="show-disqus" class="post-comments-activate">{{t "Show Comments"}}</a>
-			   <div id="disqus_thread"></div>
-			</section>
-
       {{#if @labs.subscribers}}
       <section class="post-subscribe">
 				<p>{{t "Get the latest posts delivered right to your inbox."}}</p>
@@ -105,7 +92,10 @@
 				<div class="clear"></div>
 			</aside>
 
-
+			<section id="comments">
+				<a id="show-disqus" class="post-comments-activate">{{t "Show Comments"}}</a>
+			   <div id="disqus_thread"></div>
+			</section>
 		</div>
 	</article>
 </main>
