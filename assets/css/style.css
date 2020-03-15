@@ -6,7 +6,8 @@ html {
 }
 
 body {
-  margin: 0
+  margin: 0;
+  overflow-x: scroll;
 }
 
 article,
@@ -824,11 +825,12 @@ textarea {
 
 .post-content table {
   position: relative;
-  width: 100%;
-  max-width: 100%;
+  width: auto;
+  max-width: initial;
+  word-break: keep-all;
   margin: 0 0 4rem;
   border: 1px solid #e1e3e6;
-  background: #f7f8fa
+  background: #f7f8fa;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2261,10 +2263,16 @@ textarea {
 .post-info {
   position: relative;
   z-index: 10;
-  display: flex;
   margin-bottom: 2rem;
-  font-size: 2em;
   line-height: 1em
+}
+
+.post-info a {
+  position: relative;
+  color: #909499;
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 1.5rem;
 }
 
 .post-info .post-type {
@@ -2337,7 +2345,16 @@ textarea {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 2rem;
-  color: #909499
+  color: #909499;
+  margin-bottom: 2rem;
+}
+
+a.post-meta-tag::after {
+  content: ','
+}
+
+a.post-meta-tag:last-child::after {
+  content: none
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2959,7 +2976,6 @@ textarea {
   text-decoration: none;
   color: #909499;
   transition: all ease 0.2s;
-  border-radius: 4rem;
   box-sizing: border-box
 }
 
