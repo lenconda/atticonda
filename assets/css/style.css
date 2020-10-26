@@ -400,7 +400,7 @@ th {
 .hljs-tag .hljs-title,
 .hljs-rule .hljs-property,
 .django .hljs-tag .hljs-keyword {
-  color: #000080;
+  /* color: #000080; */
   font-weight: normal
 }
 
@@ -741,7 +741,9 @@ textarea {
   overflow: hidden;
   font-family: monospace, sans-serif;
   white-space: pre;
-  background: #f7f8fa;
+  background: #222426;
+  border: 1px solid #3b3d40;
+  /* background: #f7f8fa; */
   /* border: 1px solid #e1e3e6; */
   box-sizing: border-box
 }
@@ -766,7 +768,8 @@ textarea {
   line-height: 2em;
   text-align: right;
   box-sizing: border-box;
-  background: #f7f8fa;
+  /* background: #f7f8fa; */
+  background: #222426;
   user-select: none;
   -webkit-user-select: none
 }
